@@ -18,8 +18,8 @@ import java.util.logging.Logger;
 public class DBConnector {
     private static Connection conn = null;
     private static String url = "jdbc:mysql://fa19gcis516.cnsnapspj50q.us-west-2.rds.amazonaws.com"; //don't forget to add jdbc:mysql://
-    private static String uname = "admin";
-    private static String pword = "Gannon123";
+    private static String uname = "ncarlin";
+    private static String pword = "snowflake";
     
     private static void connectToDB(){
         try {
